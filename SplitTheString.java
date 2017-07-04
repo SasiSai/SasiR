@@ -10,15 +10,15 @@ Scanner s=new Scanner(System.in);
 System.out.println("Enter the String");
 String str=s.next();
 int l=str.length();
-char c[];
-c=str.toCharArray();
+char ch[];
+ch=str.toCharArray();
 int count=1;
 int k=0;
 int m=0;
 for(int i=0;i<l-1;i++)
 {for(int j=i+1;j<l;j++)
 {
-	 if(c[i]==c[j])
+	 if(ch[i]==ch[j])
 	 {
 		 count++;
 	 }
@@ -28,7 +28,7 @@ for(int i=0;i<l-1;i++)
 	m=i;
 	k=count;
 	}count=1;
-}System.out.println(c[m]+" occurs "+k+" times");
+}System.out.println(ch[m]+" occurs "+k+" times");
 
 
 
