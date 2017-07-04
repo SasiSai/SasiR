@@ -1,9 +1,11 @@
 package Basics;
-
+import java.util.Scanner;
 public class OddOrEven {
 
 	public static void main(String[] args) {
-	int input=56;
+	Scanner s=new Scanner(System.in);
+        System.out.println("Enter the input");
+		int input=s.nextInt();
 	if(input%2==0)
 	{
 
