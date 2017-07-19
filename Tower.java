@@ -1,7 +1,4 @@
-package Basics;
-
 import java.util.Scanner;
-
 public class Tower {
 
 	public static void main(String[] args) {
