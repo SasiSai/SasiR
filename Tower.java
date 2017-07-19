@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class Tower {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 System.out.println("Enter the word");
 Scanner s=new Scanner(System.in);
 String str=s.next();
@@ -11,7 +10,5 @@ if(str.length()>1)
 }else
 {
 	System.out.println(str);
-}
-	}
-
+}}
 }
